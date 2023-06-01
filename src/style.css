@@ -1,0 +1,27 @@
+* {
+  box-sizing: border-box;
+  font-family: "Playfair", serif;
+}
+
+#sidebar {
+  width: 26em;
+  height: 52em;
+}
+
+#content {
+  display: grid;
+  grid-template-columns: 1fr 4fr;
+}
+
+#words {
+  background-color: darkgrey;
+  display: grid;
+  align-items: center;
+  justify-content: center;
+}
+
+h1,
+h2,
+#copy {
+  border: solid black 2px;
+}
